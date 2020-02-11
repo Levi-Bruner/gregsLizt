@@ -47,12 +47,12 @@ export default class CarsController {
   }
 
   bid(id, price) {
-    debugger;
+    // debugger;
     CarsService.editCar(id, { price });
   }
 
   removeImg(id) {
-    debugger;
+    // debugger;
     CarsService.editCar(id, { imgUrl: "//placehold.it/200x200" });
   }
 
